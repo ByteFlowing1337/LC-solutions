@@ -9,8 +9,8 @@ class Solution:
                     current_len+=1
                 else:
                     current_len=1
-                max_len=max(max_len,current_len) 
-            return max_len+1
+                max_len=max(max_len,current_len)+1
+            return max_len
         hgrid = get_maxgrid(hBars)
         vgrid = get_maxgrid(vBars)
         grid = min(hgrid,vgrid)
