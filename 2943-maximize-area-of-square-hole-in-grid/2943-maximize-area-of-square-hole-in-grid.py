@@ -13,7 +13,7 @@ class Solution:
                     else:
                         current_len=1
                     max_len=max(max_len,current_len) 
-            return max_len+!
+            return max_len+1
         hgrid = get_maxgrid(hBars)
         vgrid = get_maxgrid(vBars)
         grid = min(hgrid,vgrid)
