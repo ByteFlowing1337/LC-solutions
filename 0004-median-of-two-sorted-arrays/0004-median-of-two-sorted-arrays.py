@@ -4,7 +4,6 @@ class Solution:
         num.sort()
         mid = len(num)//2
         if len(num) % 2 ==0:
-
             return (num[mid] + num[mid-1]) /2
         else:
             return num[mid]
