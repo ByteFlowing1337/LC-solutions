@@ -12,4 +12,4 @@ class Solution:
             elif current_row == numRows - 1:
                 step = -1
             current_row += step
-        return s
+        return "".join(rows)
